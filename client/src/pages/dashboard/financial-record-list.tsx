@@ -1,3 +1,12 @@
+import { useFinancialRecords } from "../../contexts/financial-record-context";
+
 export const FinancialRecordList = () => {
-    return <div>Record List</div>
+    const {records} = useFinancialRecords;
+
+    return <div className="table-container">
+        <table>
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
 };

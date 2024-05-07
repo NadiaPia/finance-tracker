@@ -5,6 +5,7 @@ import { FinancialRecordList } from "./financial-record-list";
 export const Dashboard = () => {
 
     const { user } = useUser();
+    console.log("user", user)
 
     return (
         <div className="dashboard-container">
